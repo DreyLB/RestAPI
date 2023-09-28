@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from sqlalchemy import create_engine, text
-from json import dumps
 
 conectar_db = create_engine('sqlite:///APIRestPython/db/exemplo.db')
 app = Flask(__name__)
