@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
-from sqlalchemy import create_engine, text, select
+from sqlalchemy import create_engine, text
 from flask_cors import CORS
 
 conectar_db = create_engine('sqlite:///db/exemplo.db')
