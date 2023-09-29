@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container_clients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content_clients {
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-width: 20vw;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
